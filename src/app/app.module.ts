@@ -6,6 +6,7 @@ import { ModelDetailComponent } from './model-detail/model-detail.component';
 import { ModelsComponent } from './models/models.component';
 import { RouterModule }   from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   imports: [
     BrowserModule,
     FormsModule,
+    Ng2SmartTableModule,
     RouterModule.forRoot([
       {
         path: 'models',
